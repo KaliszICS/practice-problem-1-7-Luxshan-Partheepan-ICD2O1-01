@@ -15,12 +15,12 @@ def q2():
 
 def q3():
   
-  letters = input("Input the letter a")
+  letters = input("Input the letter a: ")
   show = letters == 'a'
-  print(show)
+  print( show )
 
 def q4():
-  vocabulary = input("Input a word ealier in the dictionary than google: ")
+  vocabulary = input("Input a word earlier in the dictionary than google: ")
   search = vocabulary < 'google'
   print(search)
 
